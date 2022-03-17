@@ -33,7 +33,7 @@ RUN go build \
 
 
 
-FROM alpine:latest
+FROM alpine:3.15
 RUN apk --no-cache add ca-certificates && \
   update-ca-certificates
 
