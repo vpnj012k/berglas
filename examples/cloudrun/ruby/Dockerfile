@@ -14,7 +14,7 @@
 
 # Note: if you switch to a slim base image, like an alpine-based image, you
 # will need to add the ca-certificates package for Berglas to work.
-FROM ruby:2.6
+FROM ruby:2.7.6
 
 ENV APP_ENV=production
 
