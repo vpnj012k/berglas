@@ -1,2 +1,2 @@
 Flask==1.0
-gunicorn==19.9
+gunicorn==23.0.0
